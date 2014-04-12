@@ -9,8 +9,5 @@ gem 'dm-validations'
 gem 'dm-aggregates'
 gem 'dm-migrations'
 gem 'haml'
-
-group :test do
-  gem 'rspec', :require => 'spec'
-  gem 'rack-test'
-end
+gem 'sinatra-cross_origin', '~> 0.3.1'
+gem 'pry'

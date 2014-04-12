@@ -14,7 +14,7 @@ configure do
   SiteConfig = OpenStruct.new(
                  :title => 'The Final Countdown',
                  :author => 'Ben Calegari',
-                 :url_base => 'http://localhost:4567/'
+                 :url_base => 'http://localhost:3000/'
                )
 
   # load models

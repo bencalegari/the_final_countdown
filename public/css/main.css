@@ -1,0 +1,22 @@
+#footer {
+  text-align: center;
+  margin: 130px auto 0 auto ;
+}
+
+#logo h1 {
+  text-align: center;
+  font: 6em solid black;
+  margin: 0;
+}
+
+.questions {
+  margin-top: 25px;
+}
+
+.questions h3 {
+  text-align: center;
+}
+
+#submit {
+  margin: 10px 0 0 45px;
+}
