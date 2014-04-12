@@ -12,8 +12,8 @@ require 'sinatra' unless defined?(Sinatra)
 
 configure do
   SiteConfig = OpenStruct.new(
-                 :title => 'Your Application Name',
-                 :author => 'Your Name',
+                 :title => 'The Final Countdown',
+                 :author => 'Ben Calegari',
                  :url_base => 'http://localhost:4567/'
                )
 
