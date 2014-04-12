@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('form').on('submit', function(e) {
-    e.preventDefault();
-    var wfaResponse = callWFA($('#drinks').val(), $('#hours').val(), $('#sex').val(), $('#weight').val());
+//    e.preventDefault();
+//    var wfaResponse = callWFA($('#drinks').val(), $('#hours').val(), $('#sex').val(), $('#weight').val());
   });
 
 
