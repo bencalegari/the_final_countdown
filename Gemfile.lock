@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (4.1.0)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
     addressable (2.2.8)
     bcrypt-ruby (3.0.1)
     coderay (1.1.0)
@@ -55,10 +61,12 @@ GEM
     fastercsv (1.5.5)
     haml (4.0.3)
       tilt
+    i18n (0.6.9)
     json (1.8.0)
     json_pure (1.8.0)
     method_source (0.8.2)
     mini_portile (0.5.3)
+    minitest (5.3.3)
     multi_json (1.7.4)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
@@ -77,7 +85,10 @@ GEM
     sinatra-cross_origin (0.3.2)
     slop (3.5.0)
     stringex (1.5.1)
+    thread_safe (0.3.3)
     tilt (1.4.1)
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
     uuidtools (2.1.4)
     wolfram-alpha (0.3.1)
       nokogiri
@@ -86,6 +97,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   data_mapper
   dm-aggregates
   dm-core
