@@ -1,5 +1,6 @@
-.row
-  #countdown
+- if params.any?
+  .row
+    #countdown
 .row
   .large-4.small-6.columns.large-centered.small-centered.questions
     .row
@@ -17,4 +18,8 @@
         #submit
           %input{type: 'submit', class:'small radius button', value: 'Begin the beginning of the end.'}
 
-
+- if params.any?
+  #countdown_to= @countdown_to if @countdown_to.present?
+  %script{language: 'javascript', type: 'text/javascript', src: 'js/jquery-2.1.0.min.js'}
+  %script{language: 'javascript', type: 'text/javascript', src: 'js/flipclock.min.js'}
+  %script{language: 'javascript', type: 'text/javascript', src: 'js/main.js'}
